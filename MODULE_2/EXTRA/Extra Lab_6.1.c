@@ -21,8 +21,11 @@ int reverseString(char str[]) {
         end--;
     }
 }
-main() {
+int main() {
     char str[100];
     printf("Enter a string: ");
     scanf("%s", str);
-
+    reverseString(str);
+    printf("Reversed string: %s\n", str);
+    return 0;
+}
