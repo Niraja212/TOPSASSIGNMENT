@@ -27,7 +27,7 @@ int main() {
         printf("Grade D");
     }
 
-    //return 0;
+    return 0;
 }
 
 
