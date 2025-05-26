@@ -5,7 +5,7 @@ Solve the problem using both if-else and switch-case statements. */
 
 main(){
 	
-    int a, b, c, mini, max;
+    int a, b, c, min, max;
     
     // Input three numbers
     printf("Enter three integers:\n");
@@ -23,16 +23,16 @@ main(){
 
     //Smallest
     if (a <= b && a <= c){
-    	mini = a;
+    	min = a;
 	}    
     else if (b <= a && b <= c){
-    	mini = b;
+    	min = b;
 	}     
     else{
-    	mini = c;
+    	min = c;
 	}
 	
     printf("Largest number = %d\n", max);
-    printf("Smallest number = %d\n", mini);	
+    printf("Smallest number = %d\n", min);	
 }
 
