@@ -4,12 +4,11 @@ program should then calculate and display the sum of all array elements.
 */
 #include<stdio.h>
 int main() {
-    int N,i,sum = 0;
+    int numbers[N],N,i,sum = 0;
     
     printf("Enter the numbers of element: ");
     scanf("%d", &N);
 
-    int numbers[N];
     for(i = 0; i < N; i++) {
         printf("Enter number %d: ",i+1);
         scanf("%d",&numbers[i]);
