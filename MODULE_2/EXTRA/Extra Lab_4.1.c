@@ -22,6 +22,8 @@ main(){
 	}
 	printf("Minimum element=%d \n",min);
 	printf("Maximum element=%d \n",max);
+
+/*Challenge: Extend the program to sort the array in ascending order.*/
 	
 	 for(i=0; i<10; i++) {
          for(j=i+1; j<10; j++) {
