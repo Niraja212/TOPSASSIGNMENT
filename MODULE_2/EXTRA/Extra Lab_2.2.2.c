@@ -6,21 +6,6 @@ main() {
 
     printf("\nEnter three integers: ");
     scanf("%d %d %d", &a, &b, &c);
-    //For largest
-    if (a >= b && a >= c)
-        maxCode = 1;
-    else if (b >= a && b >= c)
-        maxCode = 2;
-    else
-        maxCode = 3;
-
-    //For Smallest
-    if (a <= b && a <= c)
-        minCode = 1;
-    else if (b <= a && b <= c)
-        minCode = 2;
-    else
-        minCode = 3;
 
     //for largest
     switch (maxCode) {
