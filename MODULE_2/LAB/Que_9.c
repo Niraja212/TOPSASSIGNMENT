@@ -1,6 +1,5 @@
 /*Write a C program that accepts 5 integers from the user and 
-stores them in an array.The program should then find and print 
-the maximum and minimum values in the array.*/ 
+stores them in an array..*/ 
 
 #include<stdio.h>
 main(){
