@@ -13,7 +13,7 @@ int main() {
     // Step 1: Create and write to the file
     file = fopen(filename, "w");
     if (file == NULL) {
-        perror("Error opening file for writing");
+        perror("Error!");
         return 1;
     }
 
@@ -29,7 +29,7 @@ int main() {
 
     // Step 3: Read and display the content
     printf("Contents of the file:\n");
-    while (fgets(buffer, sizeof(buffer), file) != NULL) {
+    while (file != NULL) {
         printf("%s", buffer);
     }
 
