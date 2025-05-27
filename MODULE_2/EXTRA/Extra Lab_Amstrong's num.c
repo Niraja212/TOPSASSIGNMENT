@@ -13,8 +13,6 @@ Challenge: Write a program to find all Armstrong numbers between 1 and 1000. */
         originalNum /= 10;
         ++n;
     }
-
-   
     originalNum = num;
 
     // Calculate sum of digits raised to the power n
