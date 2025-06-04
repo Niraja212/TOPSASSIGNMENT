@@ -12,8 +12,6 @@
     printf("\nEnter the Age: ");
     scanf("%d", &age);
 
-    getchar();
-
     printf("\nEnter the Grade: ");
     scanf("%c", &grade);
 
