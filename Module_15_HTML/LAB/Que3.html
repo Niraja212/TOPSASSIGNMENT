@@ -1,0 +1,56 @@
+<!--Task: Create a product catalog table that includes the following columns: o Product Name o Product Image (use placeholder image URLs) o Price o Description o Availability (in stock, out of stock)
+Additional Requirements:
+o Use thead for the table header. o Add a border and some basic styling using inline CSS. o Use colspan or rowspan to merge cells where applicable.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalogue Table</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Product catalog</h2>
+    <table style="border:2px solid #333; border-collapse:collapse; width:100%;">
+        <thead style="font-size:large;">
+            <tr>
+                <th style="border:2px solid #333;background-color: #ffda59;text-align: center;">Product Name </th>
+                <th style="border:2px solid #333;background-color: #ffda59;text-align: center;">Product Image</th>
+                <th style="border:2px solid #333;background-color: #ffda59;text-align: center; ">Price </th>
+                <th style="border:2px solid #333;background-color: #ffda59;text-align: center;">Description</th>
+                <th style="border:2px solid #333;background-color: #ffda59;text-align: center;">Availability</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td style="border:2px solid #333;background-color: #d8c7fa;text-align: center;">BOOK</td>
+                <td style="border:2px solid #333;background-color: #d8c7fa;">
+                    <img src="image1.jpg" alt="book image">
+                </td>
+                <td style="border:2px solid #333;background-color: #d8c7fa;text-align: center;">249/-</td>
+                <td style="border:2px solid #333;background-color: #d8c7fa;text-align: center;">this is a non-fictional book. It can be used by any person above age 5 years.</td>
+                <td style="border:2px solid #333;background-color: #d8c7fa;text-align: center;">YES</td>
+            </tr>
+            <tr>
+                <td style="border:2px solid #333;text-align: center;">Perfume</td>
+                <td style="border:2px solid #333;">
+                    <img src="image2.jpg" alt="perfume">
+                </td>
+                <td style="border:2px solid #333;text-align: center;">180/-</td>
+                <td style="border:2px solid #333;text-align: center;">This perfume is made in India. It can be used by anyone above age 5, if kept from direct sunlight, cool and dry place.</td>
+                <td style="border:2px solid #333;text-align: center;">YES</td>
+            </tr>
+            <tr>
+                <td style="border:2px solid #333; background-color: #d8c7fa;text-align: center;">T-shirt</td>
+                <td style="border:2px solid #333; background-color: #d8c7fa; text-align: center;">
+                    <img src="image3.jpg" alt="tshirt">
+                </td>
+                <td style="border:2px solid #333; background-color: #d8c7fa;text-align: center;">599/-</td>
+                <td style="border:2px solid #333; background-color: #d8c7fa;text-align: center;">This t-shirt is made in India.It is a daily wear unisex t-shirt. </td>
+                <td style="border:2px solid #333;background-color: #d8c7fa;text-align: center;">YES</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+

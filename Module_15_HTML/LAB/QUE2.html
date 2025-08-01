@@ -1,0 +1,42 @@
+<!--Task: Create a contact form with the following fields: o Full name (text input) 
+o Email (email input) o Phone number (tel input) o Subject (dropdown menu) o Message (textarea)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h2 align="center"> Contact Form </h2>
+    <form>
+        <label> FullName: </label>
+        <input for="fullname" type="text" name="firstname" id="firstname" size="50" required><br><br>
+
+        <label> Email: 
+            <input for="email" type="email" id="email" name="email" minlength="15" required><br><br> 
+        </label>
+
+        <label> Contact Number:
+            <input for="contact" type="tel" id="phoneno" name="Phoneno" maxlength="10" required><br><br>
+        </label>
+        <label for="subject" ></label>
+        <Select name="'subject" id="'subject">
+            <option>----Subject----</option>
+            <option> Frontend web dev      </option>
+            <option>  Backend web dev      </option>
+            <option>  Ios              </option>
+            <option>  Mobile app dev</option>
+            <option>  Dev ops     </option>
+        </Select><br><br>
+
+        <label> Message
+            <input for="message" type="'text" name="message" size="100">
+        </label><br><br>
+            
+        <input for="submit" type="submit" name="submit" >
+    </form>
+</body>
+</html>
