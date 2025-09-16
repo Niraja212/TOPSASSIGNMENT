@@ -1,0 +1,63 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+html, body { height: 100%; }
+
+/*styling the form */
+#contact-form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form h2{
+  text-align: center;
+}
+
+.body{
+  display: flex;
+  justify-content: center;   
+  align-items: center;        
+  background: #504d4d;         
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* style for all inputs and textarea */
+.form-input {
+  width: 100%;
+  padding: 10px;                 
+  margin-top: 5px;               
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+#submit-button {
+  background-color: #b30039;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: #b30039;
+}
+
