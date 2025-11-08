@@ -1,0 +1,26 @@
+<!--9.JavaScripts Events
+Lab Assignment-9: • Task: o Create a simple webpage with a button that, 
+when clicked, displays an alert saying "Button clicked!" using JavaScript event listeners.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <p>
+        Events in JavaScripts
+    </p>
+    <button id="button" > Submit </button>
+    <script>
+         let button = document.getElementById("button");
+
+         //Event Listner
+         button.addEventListener("click", function() {
+            alert("Welcome!");
+         });
+    </script>
+</body>
+</html>

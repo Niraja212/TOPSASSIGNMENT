@@ -1,0 +1,56 @@
+<!--11. JavaScript Timing Events (setTimeout, setInterval)
+• Task 2: o Create a digital clock that updates every second using setInterval(). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing Events</title>
+    <style>
+        body {
+            background-color: #201e1e;
+            color: #de6a98;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        #clock {
+            font-size: 80px;
+            font-weight: bold;
+            background-color: #1e1e1e;
+            padding: 30px 45px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(160, 240, 64, 0.829);
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "padding: 5px">Digital Clock</h1>
+    <div id="clock"></div>
+    <script>
+        function digitalClock(){
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+        
+        digitalClock();
+        setInterval(digitalClock,1000);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!--11. JavaScript Timing Events (setTimeout, setInterval)
+Lab Assignment-11: • Task 1: o Write a program that changes the background color of a webpage after 5 seconds using setTimeout(). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing Events</title>
+</head>
+<body>
+    <h2> Timing Events</h2>
+    <p>This is a JS timimg event. It will change bgcolor after 5s. </p>
+    <script>
+        function changebgColor(){
+            document.body.style.backgroundColor= 'blue';
+            setTimeout(() => {
+                alert("Background color changed successfully!");
+            }, 500)
+        }
+        
+            setTimeout(changebgColor, 5000);
+
+    </script>
+</body>
+</html>
